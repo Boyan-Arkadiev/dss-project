@@ -1,0 +1,40 @@
+
+
+.content-list {
+    list-style: none;
+    padding: 0; 
+  }
+  
+  .content-list li {
+    background-color: #f4f4f4; 
+    margin-bottom: 1rem; 
+    padding: 1rem; 
+  }
+  
+  .content-list li:hover {
+    background-color: #e0e0e0; 
+    cursor: pointer; 
+  }
+  
+  .content-list li div {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .id span {
+    font-weight: bold; 
+  }
+  
+  .deleteButton {
+    background-color: #dc3545; 
+    color: #fff; 
+    border: none; 
+    padding: 0.5rem 1rem; 
+    border-radius: 4px; 
+  }
+  
+  .deleteButton:hover {
+    background-color: #c82333; 
+  }
+  
